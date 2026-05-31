@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Travel Explorer</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial;
+background-image:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+background-size:cover;
+background-position:center;
+height:100vh;
+color:white;
+text-align:center;
+}
+
+.nav{
+background:rgba(0,0,0,0.6);
+padding:20px;
+font-size:32px;
+font-weight:bold;
+letter-spacing: 4px;
+text-transform:uppercase;
+text-shadow: 2px 2px 8px rgba(255,255,255,0.3);
+}
+
+.hero{
+margin-top:150px;
+}
+
+h1{
+    font-size:75px;
+    font-weight:bold;
+    letter-spacing:5px;
+    text-transform:uppercase;
+    text-shadow:4px 4px 10px rgba(0,0,0,0.7);
+    margin-bottom:20px;
+}
+
+button{
+padding:12px 25px;
+font-size:18px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="nav">
+✈ TRAVEL EXPLORER 🌍 | Home | destinations | pacakages | contact
+</div>
+
+<div class="hero">
+<h1>Travel beyond limits</h1>
+<p>Discover amazing destinations with us</p>
+<button onclick="bookTrip()">book now</button>
+</div>
+<section style="padding:50px; text-align:center; background:white; color:black;">
+    <h2>Popular Destinations</h2>
+
+    <div style="display:flex; justify-content:center; gap:20px; flex-wrap:wrap;">
+
+        <div style="border:1px solid #ddd; padding:20px; width:200px;">
+            <h3>Goa</h3>
+            <p>Beautiful beaches and nightlife.</p>
+        </div>
+
+        <div style="border:1px solid #ddd; padding:20px; width:200px;">
+            <h3>Manali</h3>
+            <p>Snow mountains and adventure sports.</p>
+        </div>
+
+        <div style="border:1px solid #ddd; padding:20px; width:200px;">
+            <h3>Kerala</h3>
+            <p>Backwaters and natural beauty.</p>
+        </div>
+
+    </div>
+</section>
+
+<section style="padding:50px; text-align:c…
+<footer style="background:#222;color:white;padding:20px;text-align:center;">
+© 2026 Travel Explorer | BCA Mini Project
+</footer>
+© 2026 Travel Explorer | Developed by Palak
+</footer>
+<script>
+function welcomeMsg(){
+    alert("Welcome to Travel Explorer!");
+}
+</script>
+<h2>Contact Us</h2>
+<input type="text" placeholder="Your Name"><br><br>
+<input type="email" placeholder="Your Email"><br><br>
+<textarea placeholder="Your Message"></textarea><br><br>
+<button onclick="booktrip()">Book Now</button>
+</section>
+<script>
+function bookTrip(){
+    let name = prompt("Enter Your Name");
+    if(name){
+        alert("Welcome " + name + "! Your trip inquiry has been received.");
+    }
+}
+</script>
+<section style="padding:50px;background:white;color:black;text-align:center;">
+<h2>About Us</h2>
+<p>
+Travel Explorer helps travelers discover beautiful destinations and affordable tour packages.
+</p>
+</section>
+<footer style="background:#222;color:white;padding:20px;text-align:center;">
+© 2026 Travel Explorer | BCA Project by kalash
+</footer>
+<script>
+function bookTrip(){
+    let name = prompt("Enter Your Name");
+
+    if(name){
+        alert("Welcome " + name + "! Thanks for choosing Travel Explorer.");
+    }
+}
+</script>
+</body>
+</html>
